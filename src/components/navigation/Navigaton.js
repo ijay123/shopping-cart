@@ -16,7 +16,7 @@ const navigate = useNavigate()
   
     // Initial cart count update
     updateCartCount();
-  
+
     // Setup event listener for cart updates
     window.addEventListener('cartUpdated', updateCartCount);
   
